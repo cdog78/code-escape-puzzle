@@ -3,3 +3,5 @@ const encryptedcontent = "U2FsdGVkX18R7KIStJaLEEYXzi5U/s2AbBZc2HTEXCfP3GoseafuuM
 function includecontent(key){
   document.getElementById('includedcontent').innerHTML = decrypt(encryptedcontent, key);
 }
+
+console.log('Imported encrypted content')
